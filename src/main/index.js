@@ -38,7 +38,7 @@ function MainPage() {
                 key="{number.toString()}"
                 value={index}
               >
-                <Link className="product-link" to={`/products/ ${index}`}>
+                <Link className="product-link" to={`/products/${index}`}>
                   <div>
                     <img
                       className="product-img"
