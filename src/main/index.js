@@ -25,7 +25,7 @@ function MainPage() {
       </div>
       <h1>판매되는 상품들</h1>
       <div id="product-list">
-        {products.map(function (product, index) {
+        {products.map(function (product) {
           return (
             <div className="product-card">
               <Link className="product-link" to={`/products/${product.id}`}>
